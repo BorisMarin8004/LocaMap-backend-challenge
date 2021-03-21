@@ -13,11 +13,12 @@ Write your README as if it was for a production service. Include the following i
 
 We believe there is no one-size-fits-all technology. Good engineering is about using the right tool for the right job, and constantly learning about them. Therefore, feel free to mention in your README how much experience you have with the technical stack you choose, we will take note of that when reviewing your challenge.
 
+Also, Please feel free to use any Third Party Resource that makes sense to you. But don't forget to document in the Readme why you chose it and any pros/cons.
+
 Here are some technologies we are more familiar with:
 
 Python
 JavaScript
-Ruby
 Go
 Java
 

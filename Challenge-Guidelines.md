@@ -1,4 +1,4 @@
-#Coding Challenge Guidelines#
+#Coding Challenge Guidelines</h1>
 
 ##ReadME##
 Write your README as if it was for a production service. Include the following items:

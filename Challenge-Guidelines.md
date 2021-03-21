@@ -9,6 +9,20 @@ Write your README as if it was for a production service. Include the following i
 - Link to your resume or public profile.
 - Link to to the hosted application where applicable.
 
+# Back-end
+
+We believe there is no one-size-fits-all technology. Good engineering is about using the right tool for the right job, and constantly learning about them. Therefore, feel free to mention in your README how much experience you have with the technical stack you choose, we will take note of that when reviewing your challenge.
+
+Here are some technologies we are more familiar with:
+
+Python
+JavaScript
+Ruby
+Go
+Java
+
+You are also free to use any web framework. If you choose to use a framework that results in boilerplate code in the repository, please detail in your README which code was written by you (as opposed to generated code).
+
 ## How will your code be reviewed?
 
 The goal of this code sample is to help us identify what you consider production-ready code. You should consider this code ready for final review with your colleague, i.e. this would be the last step before deploying to production.
@@ -24,3 +38,4 @@ The aspects of your code we will assess include:
 
 - **Scalability:** will technical choices scale well? If not, is there a discussion of those choices in the README?
 - **Production-readiness:** does the code include monitoring? logging? proper error handling?
+

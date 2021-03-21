@@ -1,6 +1,6 @@
-#Coding Challenge Guidelines</h1>
+# Coding Challenge Guidelines
 
-##ReadME##
+## ReadME
 Write your README as if it was for a production service. Include the following items:
 - Description of the problem and solution.
 - Reasoning behind your technical choices, including architectural.
@@ -9,7 +9,7 @@ Write your README as if it was for a production service. Include the following i
 - Link to your resume or public profile.
 - Link to to the hosted application where applicable.
 
-##How will your code be reviewed?##
+## How will your code be reviewed?
 
 The goal of this code sample is to help us identify what you consider production-ready code. You should consider this code ready for final review with your colleague, i.e. this would be the last step before deploying to production.
 
@@ -20,7 +20,7 @@ The aspects of your code we will assess include:
 - **Code quality:** is the code simple, easy to understand, and maintainable? Are there any code smells or other red flags? Does object-oriented code follows principles such as the single responsibility principle? Is the coding style consistent with the language's guidelines? Is it consistent throughout the codebase?
 - **Technical choices:** do choices of libraries, databases, architecture etc. seem appropriate for the chosen application?
 
-###Bonus point (those items are optional):###
+### Bonus point (these items are optional)
 
 - **Scalability:** will technical choices scale well? If not, is there a discussion of those choices in the README?
 - **Production-readiness:** does the code include monitoring? logging? proper error handling?

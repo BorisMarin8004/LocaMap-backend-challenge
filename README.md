@@ -18,3 +18,27 @@ Feel free to use any third party resources or APIs as long as you document about
 > HAVE FUN!!
 
 ### Start writing here...
+
+### API requests
+The API uses opencagedata API to convert coordinates to country. 
+In order to get the country by coordinates, the user needs to specify "lat" and "lng" variables(latitude and longitude respectively).
+Example query "http://127.0.0.1:5000/api/geocoding?key=key&lat=47&lng=7" would return:
+{
+    "country": "Switzerland"
+}
+The API also handles the case when coordinates are in the ocean for example:
+For query "http://127.0.0.1:5000/api/geocoding?key=key&lat=87&lng=7" would return:
+{
+    "country": null
+}
+
+### Security
+The key for API requests is currently set to "key", which can be changed in the api.py file. We can also set different keys for any other APIs we might use. 
+
+### Scalability 
+In the current state, the backend can be easily scaled. For example, if we would like to add another API, we can just add it to the web_api folder as a separate python file, which we would like to app.py using Blueprint. We can also add any number of local databases and link them to app.py using Blueprint as well.
+
+
+
+
+

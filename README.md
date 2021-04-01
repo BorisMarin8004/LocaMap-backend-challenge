@@ -20,7 +20,7 @@ Feel free to use any third party resources or APIs as long as you document about
 ### Start writing here...
 
 ### How to start server with API
-Run "docker-compose up --build" in "LocaMap-backend-challenge" directory. This will start a docker container.
+Run "docker-compose up --build" in "LocaMap-backend-challenge" directory. This will start a docker container. It can be accessed by going to "http://127.0.0.1:5000/" in your browser.
 
 ### API requests
 The API uses opencagedata API to convert coordinates to country. 

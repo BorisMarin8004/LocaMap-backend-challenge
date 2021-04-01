@@ -19,6 +19,9 @@ Feel free to use any third party resources or APIs as long as you document about
 
 ### Start writing here...
 
+### How to start server with API
+Run "docker-compose up --build" in "LocaMap-backend-challenge" directory. This will start a docker container.
+
 ### API requests
 The API uses opencagedata API to convert coordinates to country. 
 In order to get the country by coordinates, the user needs to specify "lat" and "lng" variables(latitude and longitude respectively).
@@ -33,7 +36,7 @@ For query "http://127.0.0.1:5000/api/geocoding?key=key&lat=87&lng=7" would retur
 }
 
 ### Security
-The key for API requests is currently set to "key", which can be changed in the api.py file. We can also set different keys for any other APIs we might use. 
+The key for API requests is currently set to "key", which can be changed in the api.py file. We can also set different keys for any other APIs we might use. I also recommend changing "--host=0.0.0.0" option in the flask to docker container IP, once we want to go into production for extra security.
 
 ### Scalability 
 In the current state, the backend can be easily scaled. For example, if we would like to add another API, we can just add it to the web_api folder as a separate python file, which we would like to app.py using Blueprint. We can also add any number of local databases and link them to app.py using Blueprint as well.

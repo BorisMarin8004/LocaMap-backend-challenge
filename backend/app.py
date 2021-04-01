@@ -3,6 +3,7 @@ from web_api.api import api
 
 app = Flask(__name__)
 
+
 # Put any additional blueprints here:
 app.register_blueprint(api, url_prefix='/api')
 
